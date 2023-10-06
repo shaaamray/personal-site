@@ -11,7 +11,8 @@
 
 .skillbutton {
 	box-shadow: none;
-	outline: none
+	outline: none;
+	border-radius: 5%;
 }
 
 .skillbutton-active {
@@ -26,7 +27,7 @@
 	width:100%;
 	background:#eee;
 	height:35px;
-	border-radius:3px;
+	border-radius:10%;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
 	-webkit-transition:0.4s linear;

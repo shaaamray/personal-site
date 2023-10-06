@@ -7,26 +7,30 @@ import Education from '../components/Resume/Education';
 import Experience from '../components/Resume/Experience';
 import Skills from '../components/Resume/Skills';
 import Courses from '../components/Resume/Courses';
+import Publications from '../components/Resume/Publications';
 import References from '../components/Resume/References';
 
 import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
 import work from '../data/resume/work';
+import publications from '../data/resume/publications';
+import references from '../data/resume/references';
 import { skills, categories } from '../data/resume/skills';
 
 // NOTE: sections are displayed in order defined.
 const sections = {
   Education: () => <Education data={degrees} />,
-  Experience: () => <Experience data={work} />,
-  Skills: () => <Skills skills={skills} categories={categories} />,
+  Publications: () => <Publications data={publications} />,
   Courses: () => <Courses data={courses} />,
-  References: () => <References />,
+  Skills: () => <Skills skills={skills} categories={categories} />,
+  Experience: () => <Experience data={work} />,
+  References: () => <References references={references} />,
 };
 
 const Resume = () => (
   <Main
     title="Resume"
-    description="Michael D'Angelo's Resume. Smile Identity, Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet, and Facebook."
+    description="Shamsul Rayhan's Resume. Smile Identity, Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet, and Facebook."
   >
     <article className="post" id="resume">
       <header>

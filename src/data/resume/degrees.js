@@ -1,15 +1,19 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'BRAC University',
+    degree: 'BSc in Computer Science and Engineering',
+    link: 'https://www.bracu.ac.bd',
+    year: 2023,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Chittagong College',
+    degree: 'Higher Secondary School Certificate',
+    year: 2018,
+  },
+  {
+    school: 'Chittagong Collegiate School',
+    degree: 'Secondary School Certificate',
+    year: 2018,
   },
 ];
 

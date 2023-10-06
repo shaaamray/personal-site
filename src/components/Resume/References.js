@@ -1,15 +1,40 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-const References = () => (
+import Reference from './References/Reference';
+
+const getReferenceList = (references) => (
+  references.map((reference) => (
+    <Reference data={reference} key={reference.id} />
+  ))
+);
+
+const References = ({ references }) => (
   <div className="references">
-    <div className="link-to" id="references" />
     <div className="title">
-      <Link to="/contact">
-        <h3>References are available upon request</h3>
-      </Link>
+      <h3>References</h3>
     </div>
+    <ul className="reference-list">
+      {getReferenceList(references)}
+    </ul>
   </div>
 );
+
+References.propTypes = {
+  references: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired, // Uncomment this if id is part of your data
+      name: PropTypes.string,
+      position: PropTypes.string,
+      institution: PropTypes.string,
+      email: PropTypes.string, // Corrected from 'gmail'
+      phone: PropTypes.string, // Corrected from 'number'
+    }),
+  ),
+};
+
+References.defaultProps = {
+  references: [],
+};
 
 export default References;

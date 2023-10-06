@@ -1,47 +1,52 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Vehicle Review System',
+    subtitle: 'Software Engineering Project',
+    link: 'https://github.com/shaaamray/CSE470_Vehicle-Review-System',
+    image: '/images/projects/vehicle_review.jpg',
+    date: '2023-03-20',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Built for Software Engineering Project. '
+      + 'User can share various vehicle info and images.'
+      + 'There are review and rating options, users will have personalize profile and updated news.'
+      + 'Built based on MERN stack and Redux',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Hospital Management System',
+    subtitle: 'A database management system',
+    link: 'https://github.com/shaaamray/Hospital-management',
+    image: '/images/projects/hos_manage.jpg',
+    date: '2022-06-20',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'A hospital management system prototype'
+      + 'A system for patients to take appointments, '
+      + 'Doctors can manage their appointments by accepting pending ones for patients, can prescribe.'
+      + 'Patients can buy medicines from the pharma shop.'
+      + 'Built on Django with Tailwind.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'GadgetHunt (Device Tracker App)',
+    subtitle: 'Manage your company devices',
+    link: 'https://github.com/shaaamray/',
+    image: '/images/projects/drf.jpeg',
+    date: '2023-09-28',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'Companies can manage their provided devices to corresponding employees '
+      + 'Made with Django Rest Framework, can be integrated with any of Frontend frameworks.'
+      + 'Devices and Employees can be managed by company admins.'
+      + 'Creates a devicelog for each device and also a checkout.',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'Authetication System',
+    subtitle: 'A auth system using JSON web token',
+    link: 'https://github.com/shaaamray/Authentication-System',
+    image: '/images/projects/auth.jpeg',
+    date: '2023-08-15',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'Automated authorization system for users'
+      + 'Made with React to provide security to users.'
+      + 'Fast, scalable authentication system for ensuring system security.',
   },
 ];
 
